@@ -3,4 +3,7 @@
     padding: 20px;
     margin: 0 auto;
     border-radius: 1px;
+    height: 100%;
+    overflow: auto;
+    background: rgba(255,255,255, 0.1);
 }
