@@ -1,5 +1,5 @@
 .header-menu-bar {
-    background: #0e0e0e;
+    background: rgba(0,0,0, 0.5);
     box-shadow:  0 0 1000px 0 rgba(225, 0, 0, 0.9);
     position: relative;
 }
