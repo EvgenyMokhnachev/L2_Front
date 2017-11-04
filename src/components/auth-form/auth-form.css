@@ -1,0 +1,49 @@
+.auth-form {
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    background-size: contain;
+    background: no-repeat center;
+}
+
+.auth-form input {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 11pt;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 15px;
+    margin: 0 0 20px 0;
+    color: white;
+    border-bottom: 1px solid #404040;
+    background: none;
+    border-radius: 1px;
+    outline: none;
+    position: relative;
+}
+
+.auth-form input:focus {
+    border-bottom: 1px solid white;
+}
+
+.auth-form .button {
+    font-family: 'Playfair Display SC', serif;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 12pt;
+    background: #ffff5a;
+    border: none;
+    border-radius: 1px;
+    outline: none;
+    cursor: pointer;
+}
+
+.auth-form .blur{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-shadow: 0 0 500px 200px black;
+}

@@ -1,0 +1,22 @@
+.backgroundGroup {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.backgroundImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.backgroundVideo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.backgroundFon {
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+}

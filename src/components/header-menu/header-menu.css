@@ -1,0 +1,42 @@
+.header-menu-bar {
+    background: #0e0e0e;
+    box-shadow:  0 0 1000px 0 rgba(225, 0, 0, 0.9);
+    position: relative;
+}
+
+.header-button {
+    float: left;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+.header-button.floatRight{
+    float: right;
+}
+
+.header-button:hover, .header-button:link, .header-button:visited, .header-button:active {
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.header-button.active{
+    color: #ffc835;
+    text-decoration: none;
+}
+
+.templarSymbol {
+    height: 50px;
+    position: relative;
+    float: left;
+}
+
+.templarSymbol img{
+    position: relative;
+    width: 120px;
+    top: -40px;
+}
+
+.headerMenuSide {
+    float: left;
+}
