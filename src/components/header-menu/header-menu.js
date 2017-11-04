@@ -37,7 +37,7 @@ class Header extends Component {
                 <div className="headerMenuSide" style={{width:this.state.sideWidth}}>
                     <NavLink className="header-button floatRight" to='/login'>Войти</NavLink>
                     <NavLink className="header-button floatRight" to='/register'>Регистрация</NavLink>
-                    <NavLink className="header-button floatRight" to='//'>Главная</NavLink>
+                    <NavLink exact className="header-button floatRight" to='/'>Главная</NavLink>
                 </div>
                 <div ref="templarSymbol" className="templarSymbol">
                     <img alt="templar symbol" src={templarSymbol}/>

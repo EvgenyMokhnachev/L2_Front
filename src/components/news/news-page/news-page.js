@@ -1,14 +1,8 @@
 import React, {Component} from 'react';
-import NewsItem from './news-item/news-item.js';
+import './news-page.css';
 
-class News extends Component {
 
-    constructor(props){
-        super(props);
-        this.state = {
-            newsItems: []
-        }
-    }
+class NewsPage extends Component {
 
     componentDidMount() {
         let rows = [];
@@ -23,14 +17,9 @@ class News extends Component {
 
     render() {
         return (
-            <div>
-                {this.state.newsItems.map((item, index)=>
-                    <NewsItem item={item} key={index} />
-                )}
-            </div>
+            <div > NEWS {this.props.match.params.id}</div>
         );
     }
-
 }
 
-export default News;
+export default NewsPage;

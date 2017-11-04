@@ -5,7 +5,7 @@ class Files extends Component {
     render() {
         return (
             <div>
-                FILES
+                <h1>FILES</h1>
             </div>
         );
     }
